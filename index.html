@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Home</title>
+  <meta name="description" content="X">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/sticky.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<!-- Github: https://github.com/ivanoryshchenko/ivanoryshchenko.github.io -->
+
+<body id="top">
+  <header>
+    <div class="nav">
+      <div class="nazgul">
+        <a class="logo" href="index.html">Elena Oryshchenko</a>
+        <div class="menu">
+          <a href="development.html" class="item">Development</a>
+          <a href="projects.html" class="item">Projects</a>
+          <a href="contact.html" class="item mail">Contact</a>
+        </div>
+      </div>
+      <div id="toggle">
+        <div class="span" id="one"></div>
+        <div class="span" id="two"></div>
+        <div class="span" id="three"></div>
+      </div>
+      <aside id="resize">
+        <div id="menu">
+          <a href="development.html" class="item">Development</a>
+          <a href="projects.html" class="item">Projects</a>
+          <a href="contact.html" class="item mail">Contact</a>
+        </div>
+      </aside>
+    </div>
+
+    <div class="gandalf">
+      <div class="hero">
+        <!-- <p>HTML5, CSS3-Sass, JavaScript-jQuery, Gulp and Git</p> -->
+        <p>You will see the first result in 5 days</p>
+        <h1>Frontend for your business</h1>
+        <a href="contact.html" class="btn">Contact me</a>
+      </div>
+    </div>
+    <div class="gollum">
+      <a href="#first" id="down">
+        <svg fill="#212121" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+          <g><polygon points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779"></polygon></g>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section id="first">
+        <div class="BFT">Projects</div>
+        <article class="card">
+          <div class="slack img-area"></div>
+          <div class="text-area">
+            <div class="wrapper">
+              <h4>Slack</h4>
+              <p>An enterprise software platform that allows teams and businesses of all sizes to communicate effectively. I recreated their main webpage using CSS grid
+              </p>
+              <a href="https://ivanoryshchenko.github.io/slack/" class="link" target="_blank">See the website</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="comma img-area"></div>
+          <div class="text-area">
+            <div class="wrapper">
+              <h4>Comma.ai</h4>
+              <p>Comma is a self-driving car kit. Complete website redesign
+              </p>
+              <a href="https://comma.ai/" class="link" target="_blank">See the website</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="palantir img-area"></div>
+          <div class="text-area">
+            <div class="wrapper">
+              <h4>Palantir</h4>
+              <p>A suite of software applications for integrating, visualizing, and analyzing information. Added a few vital screens. Only for desktops
+              </p>
+              <a href="https://ivanoryshchenko.github.io/palantir/" class="link" target="_blank">See the website</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="myclean img-area"></div>
+          <div class="text-area">
+            <div class="wrapper">
+              <h4>MyClean</h4>
+              <p>It's a home and office cleaning services company.
+              </p>
+              <a href="#" class="disable" target="_blank">In development</a>
+            </div>
+          </div>
+        </article>
+        <div class="right"><a class="link" href="projects.html">More projects</a></div>
+      </section>
+
+      <section id="third">
+        <div class="contact-form">
+          <div class="BFT">Contact me</div>
+          <form action="https://formspree.io/ivanoryshchenko@gmail.com" method="POST">
+            <artice class="flex">
+              <input class="input" type="text" name="Name" placeholder="Your name">
+              <input class="input" type="email" name="Email" placeholder="Email">
+              <input class="input" type="text" name="Subject" placeholder="Subject">
+            </artice>
+            <textarea class="textarea input" name="Message" placeholder="Message"></textarea>
+            <article class="flex">
+              <input class="btn" type="submit" value="Send">
+              <div>After you have sumbitted the form, you will receive a website brief on your email</div>
+            </article>
+            <input type="hidden" name="_next" value="thanks.html" />
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <a href="#top" id="up" class="up-btn">
+      <svg fill="#212121" version="1.1" id="up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+        <g><polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312"></polygon></g>
+      </svg>
+    </a>
+  </main>
+
+  <footer>
+    <div class="frodo">
+      <p class="disable" style="margin-right: 10px;">© Ivan Oryshchenko 2018.</p><a class="dublink" target="_blank" href="privacypolicy.html">Privacy Policy</a>
+    </div>
+  </footer>
+
+  <script defer src="js/main.js"></script>
+</body>
+
+</html>
