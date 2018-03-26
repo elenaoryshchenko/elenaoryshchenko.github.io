@@ -28,8 +28,11 @@ a, a:hover {
   display: flex;
   align-items: center;
   height: 100vh;
-  background: #F5F5F5;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #283440, #1E3C5A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #283440, #1E3C5A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 40px solid #fff;
+  color: #fff;
 }
 
 .nazgul {
@@ -52,19 +55,30 @@ a, a:hover {
   display: flex;
 }
 
+.logo {
+  color: #fff;
+}
+
+.logo:hover {
+  color: #fff;
+}
+
 .item {
   font: 18px 'Oswald';
   margin-left: 20px;
   position: relative;
   transition: all 0.2s ease 0s;
+  color: #fff;
 }
 
 .item:hover {
+  color: #fff;
   opacity: 0.6;
 }
 
 .sticky-menu {
   /* transition: all 0.2s ease 0s; */
+  color: #212121;
   position: fixed;
   top: 0;
   background: #fff;
@@ -72,6 +86,22 @@ a, a:hover {
   box-shadow: 0 5px 10px rgba(10, 12, 15, .05);
   padding: 20px 120px;
   animation: slide-in .2s ease;
+}
+
+.sticky-menu .logo {
+  color: #212121;
+}
+
+.sticky-menu .logo:hover {
+  color: #212121;
+}
+
+.sticky-menu .item {
+  color: #212121
+}
+
+.sticky-menu .item:hover {
+  color: #212121
 }
 
 @keyframes slide-in {
@@ -200,6 +230,16 @@ a, a:hover {
 .btn:hover {
   background: #285078;
   color: #fff;
+}
+
+.white-btn {
+  background: rgba(255,255,255,1);
+  color: #212121;
+}
+
+.white-btn:hover {
+  background: rgba(255,255,255,.6);
+  color: #212121;
 }
 
 .gollum {
