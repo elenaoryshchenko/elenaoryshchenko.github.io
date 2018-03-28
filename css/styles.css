@@ -88,9 +88,10 @@ a, a:hover {
   top: 0;
   background: #fff;
   z-index: 999;
-  box-shadow: 0 5px 10px rgba(10, 12, 15, .05);
+  /* box-shadow: 0 5px 10px rgba(10, 12, 15, .05); */
   padding: 20px 120px;
   animation: slide-in .2s ease;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 .sticky-menu .logo {
@@ -292,6 +293,14 @@ a, a:hover {
   opacity: 0.8;
 }
 
+.about {
+  padding: 80px;
+  text-align: center;
+  margin-bottom: 80px;
+  line-height: 1.5em;
+  background: #F5F5F5;
+}
+
 .card {
   color: #fff;
   display: flex;
@@ -299,6 +308,8 @@ a, a:hover {
   width: 100%;
   height: 62vh;
   margin-bottom: 40px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .card:last-child {
@@ -318,8 +329,7 @@ a, a:hover {
   color: #212121;
   display: flex;
   align-items: center;
-  border: 1px solid #E0E0E0;
-  border-radius: 0 4px 4px 0;
+  /* border: 1px solid #E0E0E0; */
 }
 
 .text-area h4 {
@@ -327,7 +337,7 @@ a, a:hover {
 }
 
 .text-area p {
-  line-height: 28px;
+  line-height: 1.5em;
   margin: 10px 0;
 }
 
@@ -389,6 +399,7 @@ a, a:hover {
 
 .container {
   padding: 80px 120px;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 .BFT {
@@ -480,7 +491,6 @@ a, a:hover {
 
 .contact-form {
   width: 100%;
-  padding-top: 40px;
 }
 
 ::placeholder {
@@ -551,7 +561,6 @@ form .btn {
   padding: 40px 120px;
   background: #F5F5F5;
   position: relative;
-  border-top: 1px solid #E0E0E0;
 }
 
 .frodo a {
